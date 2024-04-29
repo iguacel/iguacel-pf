@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class='app'>
+<div class="app">
 	<main>
 		<slot />
 	</main>
