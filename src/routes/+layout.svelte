@@ -12,12 +12,7 @@
 		width: 100%;
 		max-width: 72rem;
 		overflow: hidden;
-		padding: 2rem 0.5rem;
+		padding: 2rem 1rem;
 		margin: 0 auto;
-		
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 2rem;
 	}
 </style>
