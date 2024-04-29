@@ -61,3 +61,11 @@ button {
 	box-sizing: border-box;
 	user-select: none;
 }
+
+.mono {
+    font-family: var(--mono);
+}
+
+.sans {
+    font-family: var(--sans);
+}
