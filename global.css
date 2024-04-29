@@ -8,19 +8,19 @@
 html, body {
 	position: relative;
 	width: 100%;
+    
+}
+
+body {
+	margin: 0;
+    font-family: "Inconsolata", monospace;
+	text-transform: uppercase;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-}
-
-body {
-	margin: 0;
-	font-family: 'Vasarely', sans-serif;
-	text-transform: uppercase;
-	background-color: antiquewhite;
 }
 
 #sveltekit {
