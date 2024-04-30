@@ -1,5 +1,8 @@
 <script>
+	import Nav from "$lib/components/Nav.svelte";
 </script>
+
+<Nav />
 
 <div class="app">
 	<main>
@@ -10,9 +13,9 @@
 <style>
 	main {
 		width: 100%;
-		max-width: 72rem;
+		max-width: var(--max-width);
 		overflow: hidden;
-		padding: 2rem 1rem;
+		padding: var(--padding);
 		margin: 0 auto;
 	}
 </style>

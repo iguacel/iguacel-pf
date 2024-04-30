@@ -8,6 +8,8 @@
     --c-black: #191919;
     --sans: "Inter", sans-serif;
     --mono: "Inconsolata", monospace;
+    --max-width: 1280px;
+    --padding: 20px;
   }
 
 *, *::before, *::after {
@@ -21,8 +23,20 @@ html, body {
     
 }
 
+body[data-theme="light"] {
+	--c-fg: #222;
+	--c-bg: #fff;
+}
+
+body[data-theme="dark"] {
+	--c-fg: #fff;
+	--c-bg: #0b0e14;
+}
+
 body {
 	margin: 0;
+    color: var(--c-fg);
+	background-color: var(--c-bg);
     font-family: var(--sans);
     font-optical-sizing: auto;
     font-weight: 400;
