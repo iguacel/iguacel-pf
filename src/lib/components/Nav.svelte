@@ -1,4 +1,6 @@
 <script lang="ts">
+    import { base } from '$app/paths';
+
     import ToggleTheme from "./ToggleTheme.svelte";
 
     import { THEMES } from "$lib/config";
@@ -20,10 +22,10 @@
 <nav>
     <ul class="links">
         <li>
-            <a href="/">Home</a>
+            <a href="{`${base}/`}">Home</a>
         </li>
         <li>
-            <a href="/about">About</a>
+            <a href="{`${base}/about`}">About</a>
         </li>
     </ul>
 
