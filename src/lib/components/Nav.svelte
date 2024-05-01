@@ -1,13 +1,10 @@
 <script lang="ts">
     import { base } from "$app/paths";
-    import { isDark } from '$lib/stores/theme';
-
+    import { isDark } from "$lib/stores/theme";
+    import { isEn } from "$lib/stores/lang";
 </script>
 
 <nav>
-
-    <h1>{$isDark ? "dark" : "light"}</h1>
-    
     <ul class="links">
         <li>
             <a href={`${base}/`}>Home</a>
@@ -16,6 +13,11 @@
             <a href={`${base}/about`}>About</a>
         </li>
     </ul>
+
+
+    <h3>{$isDark ? "dark" : "light"}</h3>
+    <h3>{$isEn ? "en" : "es"}</h3>
+
 </nav>
 
 <style>

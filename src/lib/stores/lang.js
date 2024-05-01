@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store';
+import { writable, derived } from 'svelte/store';
 
 function createLangStore() {
     const { subscribe, set } = writable('en'); // default language
@@ -17,3 +17,5 @@ function createLangStore() {
 }
 
 export const lang = createLangStore();
+
+export const isEn = derived(lang, $lang => $lang === 'en');
