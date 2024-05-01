@@ -1,17 +1,16 @@
 <script>
-	import { onMount } from 'svelte';
-    import ToggleLang from "$lib/components/ToggleLang.svelte";
+	import { onMount } from "svelte";
+	import ToggleLang from "$lib/components/ToggleLang.svelte";
 	import ToggleTheme from "$lib/components/ToggleTheme.svelte";
-	import { lang } from '$lib/stores/lang';
+	import { lang } from "$lib/stores/lang";
 
-
-  onMount(() => {
-    lang.initialize();
-  });
+	onMount(() => {
+		lang.initialize();
+	});
 </script>
 
 <ToggleTheme />
-<ToggleLang/>
+<ToggleLang />
 
 <div class="app">
 	<main>

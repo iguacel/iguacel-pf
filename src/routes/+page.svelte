@@ -1,6 +1,6 @@
 <script>
     import Header from "$lib/components/Header.svelte";
-    import { lang, isEn } from "$lib/stores/lang";
+    import { isEn } from "$lib/stores/lang";
 
     const texts = {
         en: {
@@ -14,4 +14,4 @@
     };
 </script>
 
-<Header>{$isEn ? texts.en.greeting : texts.es.greeting}</Header>
+<Header>Iguacel</Header>

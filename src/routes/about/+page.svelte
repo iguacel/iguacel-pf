@@ -1,7 +1,17 @@
 <script>
-    import Header from '$lib/components/Header.svelte';
+    import Header from "$lib/components/Header.svelte";
+    import { isEn } from "$lib/stores/lang";
+
+    const texts = {
+        en: {
+            greeting: "Hello",
+            farewell: "Goodbye",
+        },
+        es: {
+            greeting: "Hola",
+            farewell: "Adiós",
+        },
+    };
 </script>
 
-<Header>
-	Hola
-</Header>
+<Header>{$isEn ? texts.en.greeting : texts.es.greeting}</Header>

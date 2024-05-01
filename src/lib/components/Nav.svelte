@@ -14,10 +14,10 @@
         </li>
     </ul>
 
-
-    <h3>{$isDark ? "dark" : "light"}</h3>
-    <h3>{$isEn ? "en" : "es"}</h3>
-
+    <div class="dev mono">
+        <p class="pm">{$isDark ? "dark" : "light"}</p>
+        <p class="pm">{$isEn ? "en" : "es"}</p>
+    </div>
 </nav>
 
 <style>
@@ -31,5 +31,9 @@
 
     a {
         font-weight: 600;
+    }
+
+    .dev {
+        margin-top: var(--padding);
     }
 </style>
