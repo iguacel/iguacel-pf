@@ -1,6 +1,6 @@
 <script lang="ts">
     import { base } from "$app/paths";
-    import { isDark } from '$lib/stores/store';
+    import { isDark } from '$lib/stores/theme';
 
 </script>
 

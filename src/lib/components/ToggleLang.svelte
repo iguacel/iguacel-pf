@@ -1,21 +1,21 @@
 <script>
-    import { isDark } from '$lib/stores/store';
+    import { isDark } from '$lib/stores/theme';
+    import { lang } from '$lib/stores/lang';
 
-    export let lang = "en";
 
-    function toggle_lang(e) {
-        lang = lang === "en" ? "es" : "en";
-    }
+    function toggleLanguage() {
+    $lang === 'en' ? lang.setLang('es') : lang.setLang('en');
+  }
 </script>
 
-<button aria-label="toggle theme" on:click={toggle_lang}>
+<button aria-label="toggle theme" on:click={toggleLanguage}>
     <svg
         width="57px"
         height="32px"
         viewBox="0 0 56 30"
         xmlns="http://www.w3.org/2000/svg"
     >
-        <g class={lang}>
+        <g class={$lang}>
             <path
                 d="M15.2 29.3C7.3 29.3.9 22.9.9 15S7.3.7 15.2.7h25.6C48.7.7 55.1 7.1 55.1 15s-6.4 14.3-14.3 14.3H15.2Z"
                 stroke="var(--c-fg)"
@@ -24,7 +24,7 @@
             />
 
             <circle
-                class={lang}
+                class={$lang}
                 cx="15.2"
                 cy="15"
                 r="14.3"
