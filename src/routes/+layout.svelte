@@ -1,8 +1,10 @@
 <script>
-	import Nav from "$lib/components/Nav.svelte";
+    import ToggleLang from "$lib/components/ToggleLang.svelte";
+	import ToggleTheme from "$lib/components/ToggleTheme.svelte";
 </script>
 
-<Nav />
+<ToggleTheme />
+<ToggleLang/>
 
 <div class="app">
 	<main>
@@ -11,7 +13,7 @@
 </div>
 
 <style>
-	main {
+	.app {
 		width: 100%;
 		max-width: var(--max-width);
 		overflow: hidden;

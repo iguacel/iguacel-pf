@@ -1,8 +1,7 @@
-<h1>About</h1>
-<p class="mono">Me</p>
+<script>
+    import Header from '$lib/components/Header.svelte';
+</script>
 
-<style>
-    h1 {
-        font-weight: 720;
-    }
-</style>
+<Header>
+	Hola
+</Header>
