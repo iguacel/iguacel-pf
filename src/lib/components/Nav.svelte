@@ -7,10 +7,13 @@
 <nav>
     <ul class="links">
         <li>
-            <a href={`${base}/`}>Home</a>
+            <a href={`${base}/`}>{$isEn ? "Home" : "Inicio"}</a>
         </li>
         <li>
-            <a href={`${base}/about`}>About</a>
+            <a href={`${base}/projects`}>{$isEn ? "Projects" : "Proyectos"}</a>
+        </li>
+        <li>
+            <a href={`${base}/about`}>{$isEn ? "About" : "Info"}</a>
         </li>
     </ul>
 

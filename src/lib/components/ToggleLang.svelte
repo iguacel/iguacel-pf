@@ -46,10 +46,19 @@
 </button>
 
 <style>
-    svg {
+    button {
         position: absolute;
         top: var(--padding);
         right: calc(var(--padding) * 2.5);
+        width: 57px;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    svg {
+        position: absolute;
         cursor: pointer;
     }
 

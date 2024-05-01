@@ -18,7 +18,7 @@
 	}
 
 	h1 {
-		font-weight: 600;
+		font-weight: 750;
 	}
 
 	@media only screen and (min-width: 666px) {

@@ -1,13 +1,15 @@
 <script lang="ts">
-    import { theme } from '$lib/stores/theme';
+    import { theme } from "$lib/stores/theme";
     import { THEMES } from "$lib/config";
 
-    function toggle_theme(): void {
-        theme.update(current => current === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT);
+    function toggleTheme(): void {
+        theme.update((current) =>
+            current === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT,
+        );
     }
 </script>
 
-<button aria-label="toggle theme" on:click={toggle_theme}>
+<button aria-label="toggle theme" on:click={toggleTheme}>
     <svg
         viewBox="-0.75 -0.75 31.5 31.5"
         width="30"
