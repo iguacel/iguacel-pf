@@ -20,13 +20,13 @@
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(333px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 32px;
         padding-top: var(--padding);
         margin-bottom: var(--margin);
     }
     .el {
-        background: var(--c-main);
+        background: gold;
         padding: 20px;
         color: #fff;
         aspect-ratio: 1 / 1;
