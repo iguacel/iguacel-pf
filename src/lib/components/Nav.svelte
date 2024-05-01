@@ -1,9 +1,8 @@
 <script lang="ts">
     import { base } from "$app/paths";
-    import { isDark } from "$lib/stores/theme";
     import { isEn } from "$lib/stores/lang";
     import { isDev } from "$lib/stores/dev";
-
+    import IsDev from "./IsDev.svelte";
 </script>
 
 <nav>
@@ -20,12 +19,8 @@
     </ul>
 
     {#if $isDev}
-    <div class="dev mono op">
-        <p class="pm">{$isDark ? "dark" : "light"}</p>
-        <p class="pm">{$isEn ? "en" : "es"}</p>
-    </div>
+        <IsDev/>
     {/if}
-   
 </nav>
 
 <style>
