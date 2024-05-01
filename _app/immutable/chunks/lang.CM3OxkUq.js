@@ -1,0 +1,1 @@
+import{w as n}from"./index.DVLMQqaa.js";function r(){const{subscribe:a,set:t}=n("en");return{subscribe:a,setLang:e=>{localStorage.setItem("userLang",e),t(e)},initialize:()=>{const e=localStorage.getItem("userLang")||"en";t(e)}}}const s=r();export{s as l};
