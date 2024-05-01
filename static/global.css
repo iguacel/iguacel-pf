@@ -20,7 +20,7 @@
 html, body {
 	position: relative;
 	width: 100%;
-    
+	scrollbar-gutter: stable both-edges;
 }
 
 body[data-theme="light"] {
@@ -91,4 +91,8 @@ button {
 .pm {
 	margin: 0;
 	padding: 0;
+}
+
+.op {
+	opacity: 0.5;
 }

@@ -2,6 +2,8 @@
     import { base } from "$app/paths";
     import { isDark } from "$lib/stores/theme";
     import { isEn } from "$lib/stores/lang";
+    import { isDev } from "$lib/stores/dev";
+
 </script>
 
 <nav>
@@ -17,10 +19,13 @@
         </li>
     </ul>
 
-    <div class="dev mono">
+    {#if $isDev}
+    <div class="dev mono op">
         <p class="pm">{$isDark ? "dark" : "light"}</p>
         <p class="pm">{$isEn ? "en" : "es"}</p>
     </div>
+    {/if}
+   
 </nav>
 
 <style>
