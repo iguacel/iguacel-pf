@@ -16,4 +16,4 @@
 
 <Header>{$isEn ? texts.en.title : texts.es.title}</Header>
 
-<Grid projectsList={projectsList} title="Diario de Cádiz" leadin="2007 - 2021" base="dc"/>
+<Grid projectsList={projectsList} title="Diario de Cádiz" leadin="2007 - 2021" name="dc"/>

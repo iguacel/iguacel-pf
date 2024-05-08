@@ -5,7 +5,7 @@
     export let projectsList;
     export let title;
     export let leadin;
-    export let base;
+    export let name;
 </script>
 
 <Title>
@@ -15,7 +15,7 @@
 
 <div class="grid-container">
     {#each projectsList as p}
-        <Project data={p} {base} />
+        <Project data={p} name={name} />
     {/each}
 </div>
 

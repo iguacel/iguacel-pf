@@ -1,11 +1,12 @@
 <script>
+    import { base } from "$app/paths";
     export let id;
     const version = 1;
     const format = "png";
-    export let base;
+    export let name;
 </script>
 
-<img src="/projects/{base}/{id}.{format}?v={version}" alt="">
+<img src="{base}/projects/{name}/{id}.{format}?v={version}" alt="">
 
 <style>
   img {

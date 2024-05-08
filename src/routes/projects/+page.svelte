@@ -16,4 +16,4 @@
 
 <Header>{$isEn ? texts.en.title : texts.es.title}</Header>
 
-<Grid {projectsList} title={"😃"} leadin="???" base="all" />
+<Grid {projectsList} title={"😃"} leadin="???" name="all" />

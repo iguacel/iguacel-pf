@@ -3,7 +3,7 @@
     import { isEn } from "$lib/stores/lang";
     import Promo from "./Promo.svelte";
     export let data;
-    export let base;
+    export let name;
 
     $: pro = $isEn ? data.en : data.es;
     const id = data.id;
@@ -13,7 +13,7 @@
 
 <div class="project">
     <a href={pro.href} target="_blank" rel="noopener noreferrer">
-        <Promo {id} {base}/>
+        <Promo {id} {name}/>
         <h4 class="section pm">{pro.section}</h4>
         <p bind:this={titleElement} class="title" use:balancer={{ ratio: 1, enabled: true }}>
             {pro.title}
