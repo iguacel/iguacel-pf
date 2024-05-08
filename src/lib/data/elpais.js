@@ -295,21 +295,6 @@ export const projectsList = [
             href: "https://elpais.com/espana/2023-03-20/cinco-maneras-de-perder-una-mocion-de-censura-y-una-sola-de-ganarla.html",
         }
     },
-   
-    // {
-    //     id: "hipoteca",
-    //     lang: "es",
-    //     en: {
-    //         title: "Calcule la cuota de su préstamo",
-    //         section: "Economía",
-    //         href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
-    //     },
-    //     es: {
-    //         title: "Calculate your loan installment",
-    //         section: "Economy",
-    //         href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
-    //     }
-    // },
     {
         id: "dinero",
         lang: "es",
@@ -338,20 +323,6 @@ export const projectsList = [
             href: "https://elpais.com/deportes/mundial-futbol/2022-12-13/los-tres-fogonazos-con-los-que-argentina-ha-desconectado-a-croacia.html"
         }
     },
-    // {
-    //     id: "climate",
-    //     lang: "es",
-    //     en: {
-    //         title: "Un año de crisis climática sin fin",
-    //         section: "Clima",
-    //         href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
-    //     },
-    //     es: {
-    //         title: "One Endless Year of Climate Crisis",
-    //         section: "Climate",
-    //         href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
-    //     }
-    // },
     {
         id: "melilla",
         lang: "es",
@@ -366,20 +337,6 @@ export const projectsList = [
             href: "https://elpais.com/espana/2022-07-03/que-sucedio-en-la-frontera-de-melilla-el-paso-a-paso-de-la-tragedia.html"
         }
     },
-    // {
-    //     id: "crops",
-    //     lang: "es",
-    //     en: {
-    //         title: '"Ukraine was our breadbasket": this is how the war devastates the crops.',
-    //         section: "World",
-    //         href: "https://elpais.com/internacional/2022-04-27/ucrania-era-nuestro-granero-asi-destroza-la-guerra-los-cultivos.html"
-    //     },
-    //     es: {
-    //         title: '"Ucrania era nuestro granero": así destroza la guerra los cultivos',
-    //         section: "Internacional",
-    //         href: "https://elpais.com/internacional/2022-04-27/ucrania-era-nuestro-granero-asi-destroza-la-guerra-los-cultivos.html"
-    //     }
-    // },
     {
         id: "future",
         lang: "es",
@@ -394,20 +351,6 @@ export const projectsList = [
             href: "https://elpais.com/clima-y-medio-ambiente/cambio-climatico/2021-11-07/como-sera-2060-el-mapa-con-nuestros-posibles-futuros-climaticos.html"
         }
     },
-    // {
-    //     id: "pandora",
-    //     lang: "es",
-    //     en: {
-    //         title: 'Pandora papers',
-    //         section: "World",
-    //         href: "https://elpais.com/pandora-papers/2021-10-03/los-mas-poderosos-de-america-latina-y-sus-vinculaciones-con-negocios-offshore-en-los-papeles-de-pandora.html"
-    //     },
-    //     es: {
-    //         title: 'Pandora papers',
-    //         section: "Interanacional",
-    //         href: "https://elpais.com/pandora-papers/2021-10-03/los-mas-poderosos-de-america-latina-y-sus-vinculaciones-con-negocios-offshore-en-los-papeles-de-pandora.html"
-    //     }
-    // },
     {
         id: "terror",
         lang: "es",
@@ -425,15 +368,71 @@ export const projectsList = [
     {
         id: "waste",
         lang: "es",
-        en: {
+        es: {
             title: 'The not so circular journey of household waste in Spain',
             section: "Climate",
             href: "https://elpais.com/especiales/2021/el-viaje-no-tan-circular-de-los-residuos-domesticos-en-espana/"
         },
-        es: {
+        en: {
             title: 'El viaje no tan circular de los residuos domésticos en España',
             section: "Clima",
             href: "https://elpais.com/especiales/2021/el-viaje-no-tan-circular-de-los-residuos-domesticos-en-espana/"
         }
+    },
+    {
+        id: "climate",
+        lang: "es",
+        en: {
+            title: "Un año de crisis climática sin fin",
+            section: "Clima",
+            href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
+        },
+        es: {
+            title: "One Endless Year of Climate Crisis",
+            section: "Climate",
+            href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
+        }
+    },
+    {
+        id: "hipoteca",
+        lang: "es",
+        en: {
+            title: "Calcule la cuota de su préstamo",
+            section: "Economía",
+            href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
+        },
+        es: {
+            title: "Calculate your loan installment",
+            section: "Economy",
+            href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
+        }
     }
+    // {
+    //     id: "crops",
+    //     lang: "es",
+    //     en: {
+    //         title: '"Ukraine was our breadbasket": this is how the war devastates the crops.',
+    //         section: "World",
+    //         href: "https://elpais.com/internacional/2022-04-27/ucrania-era-nuestro-granero-asi-destroza-la-guerra-los-cultivos.html"
+    //     },
+    //     es: {
+    //         title: '"Ucrania era nuestro granero": así destroza la guerra los cultivos',
+    //         section: "Internacional",
+    //         href: "https://elpais.com/internacional/2022-04-27/ucrania-era-nuestro-granero-asi-destroza-la-guerra-los-cultivos.html"
+    //     }
+    // },
+    // {
+    //     id: "pandora",
+    //     lang: "es",
+    //     en: {
+    //         title: 'Pandora papers',
+    //         section: "World",
+    //         href: "https://elpais.com/pandora-papers/2021-10-03/los-mas-poderosos-de-america-latina-y-sus-vinculaciones-con-negocios-offshore-en-los-papeles-de-pandora.html"
+    //     },
+    //     es: {
+    //         title: 'Pandora papers',
+    //         section: "Interanacional",
+    //         href: "https://elpais.com/pandora-papers/2021-10-03/los-mas-poderosos-de-america-latina-y-sus-vinculaciones-con-negocios-offshore-en-los-papeles-de-pandora.html"
+    //     }
+    // },
 ];
