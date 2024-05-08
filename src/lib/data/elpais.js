@@ -45,7 +45,7 @@ export const projectsList = [
         id: "xinjiang",
         lang: "es",
         en: {
-            title: "This is the profile of inmates in Chinese re-education centers in Xinjiang",
+            title: "Re-education centers in Xinjiang",
             section: "International",
             href: "https://elpais.com/internacional/2022-05-24/sexo-hombre-edad-entre-20-y-30-anos-etnia-uigur-asi-es-la-radiografia-de-los-reclusos-en-centros-de-reeducacion-chinos-en-xinjiang.html"
         },
