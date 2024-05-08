@@ -30,12 +30,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "movilidad",
-        en: {
+        es: {
             title: "Movilidad",
             section: "",
             href: "https://iguacel.github.io/iguacel/#/exp/28"
         },
-        es: {
+        en: {
             title: "Mobility study",
             section: "",
             href: "https://iguacel.github.io/iguacel/#/exp/28"
@@ -87,12 +87,12 @@ export const projectsList = [
         lang: "es",
         id: "josephus",
         en: {
-            title: "Josephus",
+            title: "Josephus problem",
             section: "",
             href: "https://iguacel.github.io/josephus/index.html"
         },
         es: {
-            title: "Josephus",
+            title: "El problema de Josephus",
             section: "",
             href: "https://iguacel.github.io/josephus/index.html"
         }

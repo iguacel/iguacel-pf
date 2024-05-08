@@ -18,7 +18,7 @@ export const projectsList = [
         id: "spiral",
         en: {
             title: "Is the world sinking into a spiral of conflict?",
-            section: "International",
+            section: "World",
             href: "https://english.elpais.com/international/2022-06-27/is-the-world-sinking-into-a-spiral-of-conflict.html"
         },
         es: {
@@ -46,7 +46,7 @@ export const projectsList = [
         lang: "es",
         en: {
             title: "Re-education centers in Xinjiang",
-            section: "International",
+            section: "World",
             href: "https://elpais.com/internacional/2022-05-24/sexo-hombre-edad-entre-20-y-30-anos-etnia-uigur-asi-es-la-radiografia-de-los-reclusos-en-centros-de-reeducacion-chinos-en-xinjiang.html"
         },
         es: {
@@ -85,15 +85,15 @@ export const projectsList = [
     },
     {
         id: "energy",
-        lang: "es",
-        en: {
+        lang: "en",
+        es: {
             title: "Las mejores medidas para bajar la factura energética",
-            section: "Ciencia",
+            section: "Clima (datos)",
             href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
         },
-        es: {
+        en: {
             title: "The best measures to lower your energy bill",
-            section: "Science",
+            section: "Climate (data)",
             href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
         }
     },
@@ -130,13 +130,13 @@ export const projectsList = [
         lang: "es",
         en: {
             title: 'James Webb: The telescope that observes how light was born in the universe.',
-            section: "Internacional",
+            section: "Science",
 
             href: "https://elpais.com/ciencia/2021-12-19/el-telescopio-que-vera-como-nacio-la-luz-en-el-universo.html"
         },
         es: {
             title: 'James Webb: El telescopio que observa cómo nació la luz en el universo',
-            section: "International",
+            section: "Ciencia",
 
             href: "https://elpais.com/ciencia/2021-12-19/el-telescopio-que-vera-como-nacio-la-luz-en-el-universo.html"
         }
@@ -171,15 +171,15 @@ export const projectsList = [
     },
     {
         id: "earthquake",
-        lang: "multi",
+        lang: "es",
         en: {
             title: "The earthquake data that explains the volcanic eruption in Iceland",
-            section: "Science",
-            href: "https://english.elpais.com/science-tech/2023-12-20/the-earthquake-data-that-explains-the-volcanic-eruption-in-iceland.html"
+            section: "World",
+            href: "https://elpais.com/ciencia/2023-12-20/los-datos-de-cientos-de-seismos-que-explican-la-erupcion-en-el-sur-de-islandia.html"
         },
         es: {
             title: "Los datos de cientos de seísmos que explican la erupción en el suroeste de Islandia",
-            section: "Ciencia",
+            section: "Internacional",
             href: "https://elpais.com/ciencia/2023-12-20/los-datos-de-cientos-de-seismos-que-explican-la-erupcion-en-el-sur-de-islandia.html"
         }
     },
@@ -188,7 +188,7 @@ export const projectsList = [
         lang: "multi",
         en: {
             title: "What will happen to Trump? How the polls have responded to his legal battles",
-            section: "International",
+            section: "World",
             href: "https://english.elpais.com/usa/elections/2024-04-16/what-will-happen-to-trump-how-the-polls-have-responded-to-his-legal-battles.html"
         },
         es: {
@@ -207,7 +207,7 @@ export const projectsList = [
         },
         en: {
             title: "How the fire razed the Valencia building in one hour",
-            section: "Spain",
+            section: "Spain (breaking news)",
             href: "https://elpais.com/espana/2024-02-24/grafico-como-el-fuego-arraso-el-edificio-de-valencia-en-una-hora.html",
         }
     },
@@ -216,12 +216,12 @@ export const projectsList = [
         lang: "es",
         es: {
             title: "Así fue el ataque terrorista en la sala Crocus de Moscú",
-            section: "Internacional",
+            section: "España",
             href: "https://elpais.com/internacional/2024-03-24/analisis-visual-asi-fue-el-ataque-terrorista-en-la-sala-crocus-de-moscu.html",
         },
         en: {
             title: "The terrorist attack at the Crocus hall in Moscow",
-            section: "International",
+            section: "World (breaking news)",
             href: "https://elpais.com/internacional/2024-03-24/analisis-visual-asi-fue-el-ataque-terrorista-en-la-sala-crocus-de-moscu.html",
         }
     },
@@ -244,12 +244,12 @@ export const projectsList = [
         lang: "es",
         es: {
             title: "Sombras en los desiertos urbanos: lecciones de dos calles de Córdoba para combatir las temperaturas extremas",
-            section: "Ciencia",
+            section: "Clima",
             href: "https://elpais.com/clima-y-medio-ambiente/2023-08-13/sombras-en-los-desiertos-urbanos-lecciones-de-dos-calles-de-cordoba-para-combatir-las-temperaturas-extremas.html"
         },
         en: {
             title: "Shadows in urban deserts: lessons from two Cordoba streets to combat extreme temperatures",
-            section: "Science",
+            section: "Climate",
             href: "https://elpais.com/clima-y-medio-ambiente/2023-08-13/sombras-en-los-desiertos-urbanos-lecciones-de-dos-calles-de-cordoba-para-combatir-las-temperaturas-extremas.html"
         },
     },
@@ -343,12 +343,12 @@ export const projectsList = [
     //     lang: "es",
     //     en: {
     //         title: "Un año de crisis climática sin fin",
-    //         section: "Ciencia",
+    //         section: "Clima",
     //         href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
     //     },
     //     es: {
     //         title: "One Endless Year of Climate Crisis",
-    //         section: "Science",
+    //         section: "Climate",
     //         href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
     //     }
     // },
@@ -371,7 +371,7 @@ export const projectsList = [
     //     lang: "es",
     //     en: {
     //         title: '"Ukraine was our breadbasket": this is how the war devastates the crops.',
-    //         section: "International",
+    //         section: "World",
     //         href: "https://elpais.com/internacional/2022-04-27/ucrania-era-nuestro-granero-asi-destroza-la-guerra-los-cultivos.html"
     //     },
     //     es: {
@@ -385,12 +385,12 @@ export const projectsList = [
         lang: "es",
         en: {
             title: 'The map with our possible future climates',
-            section: "Science",
+            section: "Climate",
             href: "https://elpais.com/clima-y-medio-ambiente/cambio-climatico/2021-11-07/como-sera-2060-el-mapa-con-nuestros-posibles-futuros-climaticos.html"
         },
         es: {
             title: 'El mapa con nuestros posibles futuros climáticos',
-            section: "Ciencia",
+            section: "Clima",
             href: "https://elpais.com/clima-y-medio-ambiente/cambio-climatico/2021-11-07/como-sera-2060-el-mapa-con-nuestros-posibles-futuros-climaticos.html"
         }
     },
@@ -399,7 +399,7 @@ export const projectsList = [
     //     lang: "es",
     //     en: {
     //         title: 'Pandora papers',
-    //         section: "International",
+    //         section: "World",
     //         href: "https://elpais.com/pandora-papers/2021-10-03/los-mas-poderosos-de-america-latina-y-sus-vinculaciones-con-negocios-offshore-en-los-papeles-de-pandora.html"
     //     },
     //     es: {
@@ -413,12 +413,12 @@ export const projectsList = [
         lang: "es",
         en: {
             title: 'Invisible Terror: This is the new wave of the far right that advocates taking action',
-            section: "International",
+            section: "World",
             href: "https://elpais.com/eps/2024-01-20/terror-invisible-asi-es-la-nueva-ola-de-ultraderecha-que-defiende-pasar-a-la-accion-terrorista.html"
         },
         es: {
             title: 'Terror invisible: así es la nueva ola de ultraderecha que defiende pasar a la acción',
-            section: "International",
+            section: "World",
             href: "https://elpais.com/eps/2024-01-20/terror-invisible-asi-es-la-nueva-ola-de-ultraderecha-que-defiende-pasar-a-la-accion-terrorista.html"
         }
     }

@@ -30,12 +30,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "carranza",
-        en: {
+        es: {
             title: "Historias del puente Carranza",
             section: "Cádiz",
             href: "https://www.diariodecadiz.es/temas/puente-carranza/"
         },
-        es: {
+        en: {
             title: "Stories of the Carranza Bridge",
             section: "Cádiz",
             href: "https://www.diariodecadiz.es/temas/puente-carranza/"
@@ -44,12 +44,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "menas",
-        en: {
+        es: {
             title: "Menas. Viaje a tierra de nadie",
             section: "Nacional",
             href: "https://www.diariodecadiz.es/temas/inmigracion-menores/"
         },
-        es: {
+        en: {
             title: "Menas. Journey to no man's land",
             section: "Spain",
             href: "https://www.diariodecadiz.es/temas/inmigracion-menores/"
@@ -72,12 +72,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "voto",
-        en: {
+        es: {
             title: "El voto de Cádiz en las elecciones municipales",
             section: "Cádiz",
             href: "https://especiales.grupojoly.com/infografia/elecciones-municipales-2019-cadiz-capital/"
         },
-        es: {
+        en: {
             title: "The vote of Cádiz in the municipal elections",
             section: "Cádiz",
             href: "https://especiales.grupojoly.com/infografia/elecciones-municipales-2019-cadiz-capital/"
@@ -86,12 +86,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "oratorio",
-        en: {
+        es: {
             title: "Oratorio San Felipe Neri",
             section: "Cádiz (papel)",
             href: "https://i.pinimg.com/originals/73/93/e3/7393e399d5f4fada08702df89937ecfa.jpg"
         },
-        es: {
+        en: {
             title: "San Felipe Neri",
             section: "Cádiz (print)",
             href: "https://i.pinimg.com/originals/73/93/e3/7393e399d5f4fada08702df89937ecfa.jpg"
@@ -100,12 +100,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "circuito",
-        en: {
+        es: {
             title: "Moto GP",
             section: "Deportes",
             href: "https://especiales.grupojoly.com/infografia/18/gp/circuito/#/"
         },
-        es: {
+        en: {
             title: "Moto GP",
             section: "Sports",
             href: "https://especiales.grupojoly.com/infografia/18/gp/circuito/#/"
@@ -114,12 +114,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "motogp",
-        en: {
+        es: {
             title: "Pilotos Moto GP",
             section: "Deportes",
             href: "https://especiales.grupojoly.com/infografia/18/gp/pilotosgp/#/"
         },
-        es: {
+        en: {
             title: "MotoGP Riders",
             section: "Sports",
             href: "https://especiales.grupojoly.com/infografia/18/gp/pilotosgp/#/"
@@ -128,26 +128,26 @@ export const projectsList = [
     {
         lang: "es",
         id: "calentamiento",
-        en: {
+        es: {
             title: "Calentamiento local",
-            section: "Ciencia",
+            section: "Clima",
             href: "https://especiales.grupojoly.com/infografia/cambio-climatico/"
         },
-        es: {
+        en: {
             title: "Local warming",
-            section: "Science",
+            section: "Climate",
             href: "https://especiales.grupojoly.com/infografia/cambio-climatico/"
         }
     },
     {
         lang: "es",
         id: "ferias",
-        en: {
+        es: {
             title: "Calendario de ferias",
             section: "Cádiz",
             href: "https://especiales.grupojoly.com/infografia/calendario-ferias-cadiz-2019/"
         },
-        es: {
+        en: {
             title: "Festival Calendar",
             section: "Cádiz",
             href: "https://especiales.grupojoly.com/infografia/calendario-ferias-cadiz-2019/"
@@ -156,12 +156,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "carnival",
-        en: {
+        es: {
             title: "El Carnaval de siempre",
             section: "Carnaval",
             href: "https://especiales.grupojoly.com/infografia/carnaval/galeria-carnaval-de-siempre/"
         },
-        es: {
+        en: {
             title: "Carnival of Cádiz",
             section: "Carnival",
             href: "https://especiales.grupojoly.com/infografia/carnaval/galeria-carnaval-de-siempre/"
@@ -170,13 +170,13 @@ export const projectsList = [
     {
         lang: "es",
         id: "alcaldes",
-        en: {
+        es: {
             title: "Alcaldes de la provincia",
             section: "Cádiz",
             href: "https://www.diariodecadiz.es/temas/alcaldes-de-cadiz/"
         },
-        es: {
-            title: "Mayors of the Province",
+        en: {
+            title: "Mayors",
             section: "Cádiz",
             href: "https://www.diariodecadiz.es/temas/alcaldes-de-cadiz/"
         }
@@ -198,12 +198,12 @@ export const projectsList = [
     {
         lang: "es",
         id: "heroe",
-        en: {
+        es: {
             title: "El superhéroe de tu lista",
             section: "España",
             href: "https://www.diariodecadiz.es/infografia/superheroes-politicos/index.html"
         },
-        es: {
+        en: {
             title: "The superhero on your electoral list",
             section: "Spain",
             href: "https://www.diariodecadiz.es/infografia/superheroes-politicos/index.html"
