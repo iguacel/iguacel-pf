@@ -8,7 +8,4 @@
 		font-weight: 750;
         text-transform: uppercase;
     }
-    .light {
-        font-weight: 300;
-    }
 </style>
