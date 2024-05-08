@@ -9,7 +9,7 @@
             {#if $isEn}
                 <p>
                     I am a visual journalist who enjoys creating, designing, and
-                    programming graphics. I studied at the University of Navarra
+                    coding graphics. I studied at the University of Navarra
                     (Spain) and have always worked for newspapers.
                 </p>
             {:else}
