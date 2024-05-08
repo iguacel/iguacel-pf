@@ -2,6 +2,7 @@
     import Header from "$lib/components/Header.svelte";
     import Grid from "$lib/components/Grid.svelte"
     import { isEn } from "$lib/stores/lang";
+    import { projectsList } from "$lib/data/all";
 
     const texts = {
         en: {
@@ -15,4 +16,4 @@
 
 <Header>{$isEn ? texts.en.title : texts.es.title}</Header>
 
-<Grid/>
+<Grid projectsList={projectsList} title={$isEn ? "Fun" : "Otros"} leadin="2021" base="all"/>

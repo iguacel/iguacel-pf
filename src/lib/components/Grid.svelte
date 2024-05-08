@@ -1,33 +1,46 @@
 <script>
+    import Project from "./Project.svelte";
+    import Title from "./Title.svelte";
+
+    export let projectsList;
+    export let title;
+    export let leadin;
+    export let base;
 </script>
 
+<Title>
+    {title}
+    <p class="light">{leadin}</p>
+</Title>
+
 <div class="grid-container">
-    <div class="el">1</div>
-    <div class="el">2</div>
-    <div class="el">3</div>
-    <div class="el">4</div>
-    <div class="el">5</div>
-    <div class="el">6</div>
-    <div class="el">7</div>
-    <div class="el">8</div>
-    <div class="el">9</div>
-    <div class="el">10</div>
-    <div class="el">11</div>
-    <div class="el">12</div>
+    {#each projectsList as p}
+        <Project data={p} base={base}/>
+    {/each}
 </div>
 
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: 1fr;
         grid-gap: 32px;
         padding-top: var(--padding);
         margin-bottom: var(--margin);
     }
-    .el {
-        background: gold;
-        padding: 20px;
-        color: #fff;
-        aspect-ratio: 1 / 1;
+
+    @media only screen and (min-width: 666px) {
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media only screen and (min-width: 769px) {
+        .grid-container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    .light {
+        font-weight: 400;
     }
 </style>

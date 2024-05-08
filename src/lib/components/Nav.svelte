@@ -11,7 +11,13 @@
             <a href={`${base}/`}>{$isEn ? "Home" : "Inicio"}</a>
         </li>
         <li>
-            <a href={`${base}/projects`}>{$isEn ? "Projects" : "Proyectos"}</a>
+            <a href={`${base}/elpais`}>El País</a>
+        </li>
+        <li>
+            <a href={`${base}/projects`}>{$isEn ? "Other projects" : "Otros proyectos"}</a>
+        </li>
+        <li>
+            <a href={`${base}/diariodecadiz`}>Diario de Cádiz</a>
         </li>
         <li>
             <a href={`${base}/about`}>{$isEn ? "About" : "Info"}</a>
@@ -32,11 +38,7 @@
         font-size: 24px;
     }
 
-    a {
+    a, li {
         font-weight: 600;
-    }
-
-    .dev {
-        margin-top: var(--padding);
     }
 </style>
