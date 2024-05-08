@@ -6,7 +6,7 @@
 <main>
     {#if $isEn}
         <p>
-            I'm Jose. This is my graphic portfolio, featuring work for <a
+            I'm Jose A. Iguacel. This is my graphic portfolio, featuring work for <a
                 href={`${base}/elpais`}>El País</a
             >, <a href={`${base}/diariodecadiz`}>Diario de Cádiz</a>, and other
             <a href={`${base}/projects`}>fun stuff</a>.
