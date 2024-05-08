@@ -421,5 +421,19 @@ export const projectsList = [
             section: "World",
             href: "https://elpais.com/eps/2024-01-20/terror-invisible-asi-es-la-nueva-ola-de-ultraderecha-que-defiende-pasar-a-la-accion-terrorista.html"
         }
+    },
+    {
+        id: "waste",
+        lang: "es",
+        en: {
+            title: 'The not so circular journey of household waste in Spain',
+            section: "Climate",
+            href: "https://elpais.com/especiales/2021/el-viaje-no-tan-circular-de-los-residuos-domesticos-en-espana/"
+        },
+        es: {
+            title: 'El viaje no tan circular de los residuos domésticos en España',
+            section: "Clima",
+            href: "https://elpais.com/especiales/2021/el-viaje-no-tan-circular-de-los-residuos-domesticos-en-espana/"
+        }
     }
 ];

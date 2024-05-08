@@ -24,7 +24,7 @@
         </p>
 
         <p class="second">
-            <a href={`${base}/about`}>Aquí puedes contactar conmigo</a>
+            <a href={`${base}/about`}>Aquí puedes contactar conmigo.</a>
         </p>
     {/if}
 </main>
