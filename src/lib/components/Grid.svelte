@@ -15,7 +15,7 @@
 
 <div class="grid-container">
     {#each projectsList as p}
-        <Project data={p} base={base}/>
+        <Project data={p} {base} />
     {/each}
 </div>
 
@@ -24,8 +24,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 32px;
-        padding-top: var(--padding);
-        margin-bottom: var(--margin);
+        margin-top: var(--margin);
     }
 
     @media only screen and (min-width: 666px) {

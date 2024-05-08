@@ -14,10 +14,10 @@
             <a href={`${base}/elpais`}>El País</a>
         </li>
         <li>
-            <a href={`${base}/projects`}>{$isEn ? "Other projects" : "Otros proyectos"}</a>
+            <a href={`${base}/diariodecadiz`}>Diario de Cádiz</a>
         </li>
         <li>
-            <a href={`${base}/diariodecadiz`}>Diario de Cádiz</a>
+            <a href={`${base}/projects`}>{$isEn ? "Other projects" : "Otros proyectos"}</a>
         </li>
         <li>
             <a href={`${base}/about`}>{$isEn ? "About" : "Info"}</a>

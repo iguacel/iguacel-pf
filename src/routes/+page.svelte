@@ -1,17 +1,7 @@
 <script>
     import Header from "$lib/components/Header.svelte";
-    import { isEn } from "$lib/stores/lang";
-
-    const texts = {
-        en: {
-            greeting: "Hello",
-            farewell: "Goodbye",
-        },
-        es: {
-            greeting: "Hola",
-            farewell: "Adiós",
-        },
-    };
+    import Home from "$lib/components/Home.svelte";
 </script>
 
 <Header>Iguacel</Header>
+<Home />

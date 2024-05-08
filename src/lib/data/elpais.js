@@ -422,11 +422,4 @@ export const projectsList = [
             href: "https://elpais.com/eps/2024-01-20/terror-invisible-asi-es-la-nueva-ola-de-ultraderecha-que-defiende-pasar-a-la-accion-terrorista.html"
         }
     }
-]
-
-
-
-export const profile = {
-    en: "https://english.elpais.com/author/jose-antonio-alvarez-iguacel/",
-    es: "https://elpais.com/autor/jose-antonio-alvarez-iguacel/"
-}
+];
