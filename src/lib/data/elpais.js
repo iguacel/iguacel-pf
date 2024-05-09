@@ -1,18 +1,18 @@
 export const projectsList = [
-    // {
-    //     lang: "multi",
-    //     id: "satellites",
-    //     en: {
-    //         title: "SpaceX satellites threaten to hide dangerous asteroids",
-    //         section: "Science",
-    //         href: "https://prisa.arcpublishing.com/pf/preview/37I46DWHNBH2PLQPRYBHGR2ZHY/?_website=el-pais&published=false&_ignoreCache=true"
-    //     },
-    //     es: {
-    //         title: "Los satélites de SpaceX amenazan con ocultar asteroides peligrosos",
-    //         section: "Ciencia",
-    //         href: "https://prisa.arcpublishing.com/pf/preview/37I46DWHNBH2PLQPRYBHGR2ZHY/?_website=el-pais&published=false&_ignoreCache=true"
-    //     }
-    // },
+    {
+        lang: "es",
+        id: "satellites",
+        en: {
+            title: "SpaceX satellites threaten to hide dangerous asteroids",
+            section: "Science",
+            href: "https://prisa.arcpublishing.com/pf/preview/37I46DWHNBH2PLQPRYBHGR2ZHY/?_website=el-pais&published=false&_ignoreCache=true"
+        },
+        es: {
+            title: "Los satélites de SpaceX amenazan con ocultar asteroides peligrosos para la Tierra",
+            section: "Ciencia",
+            href: "https://prisa.arcpublishing.com/pf/preview/37I46DWHNBH2PLQPRYBHGR2ZHY/?_website=el-pais&published=false&_ignoreCache=true"
+        }
+    },
     {
         lang: "multi",
         id: "spiral",
@@ -379,20 +379,20 @@ export const projectsList = [
             href: "https://elpais.com/especiales/2021/el-viaje-no-tan-circular-de-los-residuos-domesticos-en-espana/"
         }
     },
-    {
-        id: "climate",
-        lang: "es",
-        en: {
-            title: "Un año de crisis climática sin fin",
-            section: "Clima",
-            href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
-        },
-        es: {
-            title: "One Endless Year of Climate Crisis",
-            section: "Climate",
-            href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
-        }
-    },
+    // {
+    //     id: "climate",
+    //     lang: "es",
+    //     en: {
+    //         title: "Un año de crisis climática sin fin",
+    //         section: "Clima",
+    //         href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
+    //     },
+    //     es: {
+    //         title: "One Endless Year of Climate Crisis",
+    //         section: "Climate",
+    //         href: "https://elpais.com/clima-y-medio-ambiente/2022-07-16/un-ano-de-crisis-climatica-sin-fin.html"
+    //     }
+    // },
     {
         id: "hipoteca",
         lang: "es",
