@@ -1,11 +1,11 @@
 export const projectsList = [
     {
-        lang: "es",
+        lang: "multi",
         id: "satellites",
         en: {
-            title: "SpaceX satellites threaten to hide dangerous asteroids",
+            title: "SpaceX satellites threaten to hide asteroids that pose danger to humanity",
             section: "Science",
-            href: "https://prisa.arcpublishing.com/pf/preview/37I46DWHNBH2PLQPRYBHGR2ZHY/?_website=el-pais&published=false&_ignoreCache=true"
+            href: "https://english.elpais.com/technology/2024-05-18/spacex-satellites-threaten-to-hide-asteroids-that-pose-danger-to-humanity.html"
         },
         es: {
             title: "Los satélites de SpaceX amenazan con ocultar asteroides peligrosos para la Tierra",
