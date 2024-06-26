@@ -28,6 +28,20 @@ export const projectsList = [
         }
     },
     {
+        lang: "multi",
+        id: "sim",
+        en: {
+            title: "Who is going to win the European Championship?",
+            section: "Sports",
+            href: "https://english.elpais.com/sports/2024-06-18/who-is-going-to-win-the-european-championship-this-is-what-our-statistical-model-predicts.html"
+        },
+        es: {
+            title: "¿Quién va a ganar la Eurocopa?",
+            section: "Deportes",
+            href: "https://elpais.com/deportes/eurocopa-futbol/2024-06-14/quien-va-a-ganar-la-eurocopa-asi-arrancan-las-predicciones-de-nuestro-modelo-estadistico.html"
+        }
+    },
+    {
         id: "rockets",
         lang: "multi",
         en: {
@@ -282,6 +296,20 @@ export const projectsList = [
         },
     },
     {
+        id: "justicia",
+        lang: "es",
+        es: {
+            title: "Guía rápida para entender cómo está ahora el Consejo del Poder Judicial",
+            section: "España",
+            href: "https://elpais.com/espana/2024-06-26/guia-rapida-para-entender-como-esta-ahora-el-consejo-del-poder-judicial-y-como-se-ha-llegado-a-la-renovacion.html",
+        },
+        en: {
+            title: "Guide to Understanding the Current State of the Judicial Power Council",
+            section: "Spain",
+            href: "https://elpais.com/espana/2024-06-26/guia-rapida-para-entender-como-esta-ahora-el-consejo-del-poder-judicial-y-como-se-ha-llegado-a-la-renovacion.html",
+        }
+    },
+    {
         id: "censura",
         lang: "es",
         es: {
@@ -404,6 +432,20 @@ export const projectsList = [
         es: {
             title: "Calculate your loan installment",
             section: "Economy",
+            href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
+        }
+    },
+    {
+        id: "lince",
+        lang: "es",
+        en: {
+            title: "How much does it cost to kill a lynx or a bear in Spain?",
+            section: "Climate",
+            href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
+        },
+        es: {
+            title: "¿A cuánto sale matar un lince o un oso en España?",
+            section: "Clima",
             href: "https://elpais.com/clima-y-medio-ambiente/2023-02-12/que-ahorra-mas-tres-dias-de-teletrabajo-o-usar-coche-electrico-las-mejores-medidas-para-bajar-la-factura-energetica.html"
         }
     }
