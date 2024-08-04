@@ -14,6 +14,20 @@ export const projectsList = [
         }
     },
     {
+        lang: "es",
+        id: "brain",
+        en: {
+            title: "Addicted to everything",
+            section: "Science",
+            href: "https://elpais.com/eps/2024-08-04/adictos-a-todo-cuando-lo-que-te-destroza-la-vida-parecia-inofensivo.html"
+        },
+        es: {
+            title: "Adictos a todo",
+            section: "Ciencia",
+            href: "https://elpais.com/eps/2024-08-04/adictos-a-todo-cuando-lo-que-te-destroza-la-vida-parecia-inofensivo.html"
+        }
+    },
+    {
         lang: "multi",
         id: "spiral",
         en: {
