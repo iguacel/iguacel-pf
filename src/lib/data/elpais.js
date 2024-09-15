@@ -169,6 +169,20 @@ export const projectsList = [
             href: "https://elpais.com/ciencia/2021-12-19/el-telescopio-que-vera-como-nacio-la-luz-en-el-universo.html"
         }
     },
+    {
+        id: "trump24",
+        lang: "multi",
+        en: {
+            title: "Qué dicen las encuestas en EE UU? Harris y Trump están (casi) empatados en opciones de ganar",
+            section: "World",
+            href: "https://elpais.com/internacional/elecciones-usa/2024-09-15/que-dicen-las-encuestas-en-ee-uu-harris-y-trump-estan-casi-empatados-en-opciones-de-ganar.html"
+        },
+        es: {
+            title: "What do the polls say in the U.S.? Harris and Trump are (almost) tied in chances of winning",
+            section: "Internacional",
+            href: "https://elpais.com/internacional/elecciones-usa/2024-09-15/que-dicen-las-encuestas-en-ee-uu-harris-y-trump-estan-casi-empatados-en-opciones-de-ganar.html"
+        }
+    },
     // {
     //     id: "bisphenol",
     //     lang: "multi",
@@ -209,20 +223,6 @@ export const projectsList = [
             title: "Los datos de cientos de seísmos que explican la erupción en el suroeste de Islandia",
             section: "Internacional",
             href: "https://elpais.com/ciencia/2023-12-20/los-datos-de-cientos-de-seismos-que-explican-la-erupcion-en-el-sur-de-islandia.html"
-        }
-    },
-    {
-        id: "trump24",
-        lang: "multi",
-        en: {
-            title: "What will happen to Trump? How the polls have responded to his legal battles",
-            section: "World",
-            href: "https://english.elpais.com/usa/elections/2024-04-16/what-will-happen-to-trump-how-the-polls-have-responded-to-his-legal-battles.html"
-        },
-        es: {
-            title: "¿Qué pasará con Trump? Así se mueven las encuestas durante su periplo judicial",
-            section: "Internacional",
-            href: "https://elpais.com/internacional/elecciones-usa/2024-04-16/que-pasara-con-trump-asi-se-mueven-las-encuestas-durante-su-periplo-judicial.html"
         }
     },
     {
