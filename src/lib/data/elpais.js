@@ -42,6 +42,48 @@ export const projectsList = [
         }
     },
     {
+        id: "trump24",
+        lang: "es",
+        es: {
+            title: "Qué dicen las encuestas en EE UU? Harris y Trump están (casi) empatados en opciones de ganar",
+            section: "Internacional",
+            href: "https://elpais.com/internacional/elecciones-usa/2024-10-12/que-dicen-las-encuestas-en-eeuu-empate-total-entre-harris-y-trump.html"
+        },
+        en: {
+            title: "What do the U.S. polls say? A complete tie between Harris and Trump",
+            section: "World",
+            href: "https://elpais.com/internacional/elecciones-usa/2024-10-12/que-dicen-las-encuestas-en-eeuu-empate-total-entre-harris-y-trump.html"
+        }
+    },
+    {
+        id: "milton",
+        lang: "es",
+        es: {
+            title: "Mapas de la trayectoria del huracán ‘Milton’",
+            section: "Internacional",
+            href: "https://elpais.com/us/2024-10-09/mapas-de-la-trayectoria-del-huracan-milton-donde-y-cuando-puede-causar-danos-y-tocar-la-costa.html"
+        },
+        en: {
+            title: "Maps of Hurricane Milton's path: where and when it may cause damage",
+            section: "World",
+            href: "https://elpais.com/us/2024-10-09/mapas-de-la-trayectoria-del-huracan-milton-donde-y-cuando-puede-causar-danos-y-tocar-la-costa.html"
+        }
+    },
+    {
+        id: "gaza",
+        lang: "multi",
+        es: {
+            title: "La matanza del 7 de octubre",
+            section: "Internacional",
+            href: "https://elpais.com/internacional/2024-10-06/la-matanza-del-7-de-octubre-como-hamas-asalto-la-frontera-con-israel-y-asesino-a-1200-personas.html"
+        },
+        en: {
+            title: "The October 7th Massacre",
+            section: "World",
+            href: "https://elpais.com/internacional/2024-10-06/la-matanza-del-7-de-octubre-como-hamas-asalto-la-frontera-con-israel-y-asesino-a-1200-personas.html"
+        }
+    },
+    {
         lang: "multi",
         id: "sim",
         en: {
@@ -167,20 +209,6 @@ export const projectsList = [
             section: "Ciencia",
 
             href: "https://elpais.com/ciencia/2021-12-19/el-telescopio-que-vera-como-nacio-la-luz-en-el-universo.html"
-        }
-    },
-    {
-        id: "trump24",
-        lang: "multi",
-        en: {
-            title: "Qué dicen las encuestas en EE UU? Harris y Trump están (casi) empatados en opciones de ganar",
-            section: "World",
-            href: "https://elpais.com/internacional/elecciones-usa/2024-09-15/que-dicen-las-encuestas-en-ee-uu-harris-y-trump-estan-casi-empatados-en-opciones-de-ganar.html"
-        },
-        es: {
-            title: "What do the polls say in the U.S.? Harris and Trump are (almost) tied in chances of winning",
-            section: "Internacional",
-            href: "https://elpais.com/internacional/elecciones-usa/2024-09-15/que-dicen-las-encuestas-en-ee-uu-harris-y-trump-estan-casi-empatados-en-opciones-de-ganar.html"
         }
     },
     // {
