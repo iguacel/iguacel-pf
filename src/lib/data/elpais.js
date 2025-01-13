@@ -1,5 +1,19 @@
 export const projectsList = [
     {
+        lang: "es",
+        id: "greenland",
+        en: {
+            title: "Why does Trump want to buy Greenland?",
+            section: "World",
+            href: "https://elpais.com/internacional/2025-01-13/mapas-por-que-trump-quiere-comprar-groenlandia.html"
+        },
+        es: {
+            title: "¿Por qué Trump quiere comprar Groenlandia?",
+            section: "Internacional",
+            href: "https://elpais.com/internacional/2025-01-13/mapas-por-que-trump-quiere-comprar-groenlandia.html"
+        }
+    },
+    {
         lang: "multi",
         id: "satellites",
         en: {

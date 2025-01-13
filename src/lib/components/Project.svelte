@@ -33,6 +33,7 @@
     .title {
         font-weight: 500;
         font-size: 90%;
+        text-wrap: balance;
     }
 
     a {

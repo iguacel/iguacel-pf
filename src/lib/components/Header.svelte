@@ -15,6 +15,7 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 64px;
+		text-wrap: balance;
 	}
 
 	h1 {
