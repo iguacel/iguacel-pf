@@ -16,4 +16,4 @@
 
 <Header>{$isEn ? texts.en.title : texts.es.title}</Header>
 
-<Grid projectsList={projectsList} title="El País" leadin="2021 - 2024" name="elpais"/>
+<Grid projectsList={projectsList} title="El País" leadin={`2021 - ${new Date().getFullYear()}`} name="elpais"/>
