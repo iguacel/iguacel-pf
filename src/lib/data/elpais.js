@@ -28,17 +28,17 @@ export const projectsList = [
         }
     },
     {
-        lang: "es",
-        id: "brain",
+        lang: "multi",
+        id: "asteroid",
         en: {
-            title: "Addicted to everything",
+            title: "Global race to determine whether asteroid 2024 YR4 will collide with Earth",
             section: "Science",
-            href: "https://elpais.com/eps/2024-08-04/adictos-a-todo-cuando-lo-que-te-destroza-la-vida-parecia-inofensivo.html"
+            href: "https://elpais.com/ciencia/2025-02-09/carrera-mundial-para-aclarar-si-el-asteroide-2024-yr4-chocara-con-la-tierra.html"
         },
         es: {
-            title: "Adictos a todo",
+            title: "Carrera mundial para aclarar si el asteroide 2024 YR4 chocará con la Tierra",
             section: "Ciencia",
-            href: "https://elpais.com/eps/2024-08-04/adictos-a-todo-cuando-lo-que-te-destroza-la-vida-parecia-inofensivo.html"
+            href: "https://elpais.com/ciencia/2025-02-09/carrera-mundial-para-aclarar-si-el-asteroide-2024-yr4-chocara-con-la-tierra.html"
         }
     },
     {
@@ -81,6 +81,20 @@ export const projectsList = [
             title: "Maps of Hurricane Milton's path: where and when it may cause damage",
             section: "World",
             href: "https://elpais.com/us/2024-10-09/mapas-de-la-trayectoria-del-huracan-milton-donde-y-cuando-puede-causar-danos-y-tocar-la-costa.html"
+        }
+    },
+    {
+        lang: "es",
+        id: "brain",
+        en: {
+            title: "Addicted to everything",
+            section: "Science",
+            href: "https://elpais.com/eps/2024-08-04/adictos-a-todo-cuando-lo-que-te-destroza-la-vida-parecia-inofensivo.html"
+        },
+        es: {
+            title: "Adictos a todo",
+            section: "Ciencia",
+            href: "https://elpais.com/eps/2024-08-04/adictos-a-todo-cuando-lo-que-te-destroza-la-vida-parecia-inofensivo.html"
         }
     },
     {
