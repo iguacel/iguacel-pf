@@ -31,14 +31,14 @@ export const projectsList = [
         lang: "multi",
         id: "asteroid",
         en: {
-            title: "Global race to determine whether asteroid 2024 YR4 will collide with Earth",
+            title: "The global race to find out if asteroid 2024 YR4 will hit Earth",
             section: "Science",
-            href: "https://elpais.com/ciencia/2025-02-09/carrera-mundial-para-aclarar-si-el-asteroide-2024-yr4-chocara-con-la-tierra.html"
+            href: "https://english.elpais.com/science-tech/2025-02-11/the-global-race-to-find-out-if-asteroid-2024-yr4-will-hit-earth.html"
         },
         es: {
             title: "Carrera mundial para aclarar si el asteroide 2024 YR4 chocará con la Tierra",
             section: "Ciencia",
-            href: "https://elpais.com/ciencia/2025-02-09/carrera-mundial-para-aclarar-si-el-asteroide-2024-yr4-chocara-con-la-tierra.html"
+            href: "https://english.elpais.com/science-tech/2025-02-11/the-global-race-to-find-out-if-asteroid-2024-yr4-will-hit-earth.html"
         }
     },
     {
