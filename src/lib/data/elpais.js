@@ -1,6 +1,20 @@
 export const projectsList = [
     {
         lang: "es",
+        id: "desfile",
+        en: {
+            title: "The 'parade' of all the planets that will not happen again until the year 2040",
+            section: "Science",
+            href: "https://elpais.com/ciencia/2025-02-27/el-desfile-de-todos-los-planetas-que-no-volvera-a-ocurrir-hasta-el-ano-2040.html"
+        },
+        es: {
+            title: "El ‘desfile’ de todos los planetas que no volverá a ocurrir hasta el año 2040",
+            section: "Ciencia",
+            href: "https://elpais.com/ciencia/2025-02-27/el-desfile-de-todos-los-planetas-que-no-volvera-a-ocurrir-hasta-el-ano-2040.html"
+        }
+    },
+    {
+        lang: "es",
         id: "greenland",
         en: {
             title: "Why does Trump want to buy Greenland?",
