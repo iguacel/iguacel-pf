@@ -1,6 +1,20 @@
 export const projectsList = [
     {
         lang: "es",
+        id: "eclipse-25",
+        en: {
+            title: "The partial eclipse of March 29th begins an unprecedented astronomical era in the history of Spain",
+            section: "Science",
+            href: "https://elpais.com/ciencia/2025-02-27/el-desfile-de-todos-los-planetas-que-no-volvera-a-ocurrir-hasta-el-ano-2040.html"
+        },
+        es: {
+            title: "El eclipse parcial del 29 de marzo inicia una era astronómica inédita en la historia de España",
+            section: "Ciencia",
+            href: "https://elpais.com/ciencia/2025-02-27/el-desfile-de-todos-los-planetas-que-no-volvera-a-ocurrir-hasta-el-ano-2040.html"
+        }
+    },
+    {
+        lang: "es",
         id: "desfile",
         en: {
             title: "The 'parade' of all the planets that will not happen again until the year 2040",
