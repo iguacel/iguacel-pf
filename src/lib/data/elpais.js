@@ -1,6 +1,34 @@
 export const projectsList = [
     {
         lang: "es",
+        id: "eclipse-25-scroll",
+        en: {
+            title: "How to watch an eclipse safely",
+            section: "Science",
+            href: "https://elpais.com/ciencia/2025-03-26/como-mirar-un-eclipse-de-manera-segura-ningun-truco-domestico-sirve.html"
+        },
+        es: {
+            title: "Cómo mirar un eclipse de manera segura",
+            section: "Ciencia",
+            href: "https://elpais.com/ciencia/2025-03-26/como-mirar-un-eclipse-de-manera-segura-ningun-truco-domestico-sirve.html"
+        }
+    },
+    {
+        lang: "es",
+        id: "eclipse-25-previa",
+        en: {
+            title: "Where and when to watch the solar eclipse on March 29",
+            section: "Science",
+            href: "https://elpais.com/ciencia/2025-03-28/donde-y-cuando-ver-el-eclipse-solar-del-29-de-marzo-el-aperitivo-de-una-era-astronomica-inedita-en-espana.html"
+        },
+        es: {
+            title: "Dónde y cuándo ver el eclipse solar del 29 de marzo",
+            section: "Ciencia",
+            href: "https://elpais.com/ciencia/2025-03-28/donde-y-cuando-ver-el-eclipse-solar-del-29-de-marzo-el-aperitivo-de-una-era-astronomica-inedita-en-espana.html"
+        }
+    },
+    {
+        lang: "es",
         id: "eclipse-25",
         en: {
             title: "The partial eclipse of March 29th begins an unprecedented astronomical era in the history of Spain",
