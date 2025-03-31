@@ -1,6 +1,20 @@
 export const projectsList = [
     {
         lang: "es",
+        id: "eclipse-25-sat",
+        en: {
+            title: "This is what the eclipse looked like from space",
+            section: "Science",
+            href: "https://elpais.com/ciencia/2025-03-31/asi-se-vio-el-eclipse-desde-el-espacio.html"
+        },
+        es: {
+            title: "Así se vio el eclipse desde el espacio",
+            section: "Ciencia",
+            href: "https://elpais.com/ciencia/2025-03-31/asi-se-vio-el-eclipse-desde-el-espacio.html"
+        }
+    },
+    {
+        lang: "es",
         id: "eclipse-25-scroll",
         en: {
             title: "How to watch an eclipse safely",
