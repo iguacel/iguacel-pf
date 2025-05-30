@@ -1,11 +1,25 @@
 export const projectsList = [
+     {
+        lang: "es",
+        id: "switch",
+        en: {
+            title: "Who Can Make a Nintendo? Globalization Explained Through the Switch 2",
+            section: "Economy",
+            href: ""
+        },
+        es: {
+            title: "¿Quién puede fabricar una Nintendo? La globalización explicada con la Switch 2",
+            section: "Economía",
+            href: ""
+        }
+    },
     {
         lang: "es",
         id: "eclipse-25-sat",
         en: {
             title: "This is what the eclipse looked like from space",
             section: "Science",
-            href: "https://elpais.com/ciencia/2025-03-31/asi-se-vio-el-eclipse-desde-el-espacio.html"
+            href: "https://english.elpais.com/science-tech/2025-03-31/this-is-how-the-eclipse-looked-from-space.html"
         },
         es: {
             title: "Así se vio el eclipse desde el espacio",
