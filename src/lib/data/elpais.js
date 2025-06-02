@@ -5,12 +5,12 @@ export const projectsList = [
         en: {
             title: "Who Can Make a Nintendo? Globalization Explained Through the Switch 2",
             section: "Economy",
-            href: ""
+            href: "https://elpais.com/economia/2025-06-01/quien-fabrica-una-nintendo-la-globalizacion-explicada-con-la-nueva-switch-2.html"
         },
         es: {
             title: "¿Quién puede fabricar una Nintendo? La globalización explicada con la Switch 2",
             section: "Economía",
-            href: ""
+            href: "https://elpais.com/economia/2025-06-01/quien-fabrica-una-nintendo-la-globalizacion-explicada-con-la-nueva-switch-2.html"
         }
     },
     {
