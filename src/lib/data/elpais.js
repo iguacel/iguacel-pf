@@ -3,9 +3,9 @@ export const projectsList = [
         lang: "es",
         id: "switch",
         en: {
-            title: "Who Can Make a Nintendo? Globalization Explained Through the Switch 2",
+            title: "From Mario to the barrio: Globalization explained through the Nintendo Switch 2",
             section: "Economy",
-            href: "https://elpais.com/economia/2025-06-01/quien-fabrica-una-nintendo-la-globalizacion-explicada-con-la-nueva-switch-2.html"
+            href: "https://english.elpais.com/economy-and-business/2025-06-03/from-mario-to-the-barrio-globalization-explained-through-the-nintendo-switch-2.html"
         },
         es: {
             title: "¿Quién puede fabricar una Nintendo? La globalización explicada con la Switch 2",
