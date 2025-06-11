@@ -24,6 +24,18 @@ html, body {
 	/* scrollbar-gutter: stable both-edges; */
 }
 
+.scanlines {
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(#0000 50%, #0003 50%);
+    background-size: 100% 2px;
+    pointer-events: none;
+	min-height: 100vh;
+}
+
 body[data-theme="light"] {
 	--c-fg: #0b0e14;
 	--c-bg: #fff;
