@@ -1,6 +1,7 @@
 export const links = [
     { name: "infoiguacel@gmail.com", href: "mailto:infoiguacel@gmail.com" },
-    { name: "El País", href: "https://elpais.com/autor/jose-antonio-alvarez-iguacel/" },
+    { name: "EL PAÍS", href: "https://elpais.com/autor/jose-antonio-alvarez-iguacel/" },
+    { name: "bsky", href: "https://bsky.app/profile/iguacel.bsky.social" },
     { name: "X", href: "https://twitter.com/infoiguacel" },
     {
         name: "LinkedIn",
