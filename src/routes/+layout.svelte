@@ -28,6 +28,8 @@
 <ToggleTheme />
 <ToggleLang />
 
+<div class="scanlines"></div>
+
 <div class="app">
 	<main>
 		<slot />
