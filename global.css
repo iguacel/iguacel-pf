@@ -30,8 +30,8 @@ html, body {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(#0000 50%, #0003 50%);
-    background-size: 100% 2px;
+    background: linear-gradient(#0000 50%, #0001 50%);
+    background-size: 100% 8px;
     pointer-events: none;
 	min-height: 100vh;
 }
