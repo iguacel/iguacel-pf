@@ -15,6 +15,20 @@ export const projectsList = [
     },
     {
         lang: "es",
+        id: "gaza-hambre",
+        en: {
+            title: "Israel turns hunger into a weapon",
+            section: "World",
+            href: "https://elpais.com/internacional/2025-07-27/israel-convierte-el-hambre-en-un-arma-la-crisis-explicada-en-graficos.html"
+        },
+        es: {
+            title: "Israel convierte el hambre en un arma",
+            section: "Internacional",
+            href: "https://elpais.com/internacional/2025-07-27/israel-convierte-el-hambre-en-un-arma-la-crisis-explicada-en-graficos.html"
+        }
+    },
+    {
+        lang: "es",
         id: "eclipse-25-sat",
         en: {
             title: "This is what the eclipse looked like from space",
