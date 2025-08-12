@@ -1,5 +1,19 @@
 export const projectsList = [
-     {
+    {
+        lang: "es",
+        id: "eclipse1y",
+        en: {
+            title: "A year to go until the eclipse of the century",
+            section: "Science",
+            href: "https://elpais.com/ciencia/2025-08-12/falta-un-ano-para-el-eclipse-del-siglo-hoy-es-el-dia-para-saber-donde-verlo.html"
+        },
+        es: {
+            title: "Falta un año para el eclipse del siglo: hoy es el día para saber dónde verlo",
+            section: "Ciencia",
+            href: "https://elpais.com/ciencia/2025-08-12/falta-un-ano-para-el-eclipse-del-siglo-hoy-es-el-dia-para-saber-donde-verlo.html"
+        }
+    },
+    {
         lang: "es",
         id: "switch",
         en: {
