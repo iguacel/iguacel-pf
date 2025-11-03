@@ -109,13 +109,13 @@ export const projectsList = [
       title:
         "Colegios, campos de fútbol o residencias: en qué municipios hay lugares en riesgo ante una inundación extrema",
       section: "Clima",
-      href: "https://elpais.com/clima-y-medio-ambiente/2025-10-15/colegios-campos-de-futbol-o-residencias-en-que-municipios-hay-lugares-en-riesgo-ante-una-inundacion-extrema.html",
+      href: "https://elpais.com/clima-y-medio-ambiente/2025-11-01/colegios-campos-de-futbol-o-residencias-en-que-municipios-hay-lugares-en-riesgo-ante-una-inundacion-extrema.html",
     },
     en: {
       title:
         "Schools, soccer fields and nursing homes: which municipalities have places at risk from extreme flooding",
       section: "Climate",
-      href: "https://elpais.com/clima-y-medio-ambiente/2025-10-15/colegios-campos-de-futbol-o-residencias-en-que-municipios-hay-lugares-en-riesgo-ante-una-inundacion-extrema.html",
+      href: "https://elpais.com/clima-y-medio-ambiente/2025-11-01/colegios-campos-de-futbol-o-residencias-en-que-municipios-hay-lugares-en-riesgo-ante-una-inundacion-extrema.html",
     },
   },
   {
@@ -125,13 +125,13 @@ export const projectsList = [
       title:
         "¿A cuántos extranjeros afecta el plan del PP? Así es el estatus de siete millones de personas en España",
       section: "España",
-      href: "https://elpais.com/espana/2025-09-20/a-cuantos-extranjeros-afecta-el-plan-del-pp-asi-es-el-estatus-de-siete-millones-de-personas-en-espana.html",
+      href: "https://elpais.com/espana/2025-10-18/a-cuantos-extranjeros-afecta-el-plan-del-pp-asi-es-el-estatus-de-siete-millones-de-personas-en-espana.html",
     },
     en: {
       title:
         "How many foreigners are affected by the PP’s plan? The status of seven million people in Spain",
       section: "Spain",
-      href: "https://elpais.com/espana/2025-09-20/a-cuantos-extranjeros-afecta-el-plan-del-pp-asi-es-el-estatus-de-siete-millones-de-personas-en-espana.html",
+      href: "https://elpais.com/espana/2025-10-18/a-cuantos-extranjeros-afecta-el-plan-del-pp-asi-es-el-estatus-de-siete-millones-de-personas-en-espana.html",
     },
   },
   {
