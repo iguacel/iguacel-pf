@@ -14,6 +14,21 @@ export const projectsList = [
       href: "https://elpais.com/ciencia/2025-08-12/falta-un-ano-para-el-eclipse-del-siglo-hoy-es-el-dia-para-saber-donde-verlo.html",
     },
   },
+{
+    lang: "es",
+    id: "solar",
+    en: {
+      title: "Map of solar panels",
+      section: "Climate",
+      href: "https://elpais.com/clima-y-medio-ambiente/2025-11-24/mapa-de-los-paneles-solares-la-revolucion-que-transforma-el-planeta-de-badajoz-al-tibet.html",
+    },
+    es: {
+      title:
+        "Mapa de los paneles solares",
+      section: "Clima",
+      href: "https://elpais.com/clima-y-medio-ambiente/2025-11-24/mapa-de-los-paneles-solares-la-revolucion-que-transforma-el-planeta-de-badajoz-al-tibet.html",
+    },
+  },
   {
     lang: "es",
     id: "switch",
