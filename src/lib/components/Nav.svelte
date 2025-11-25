@@ -13,9 +13,9 @@
         <li>
             <a href={`${base}/elpais`}>El País</a>
         </li>
-        <li>
+        <!-- <li>
             <a href={`${base}/diariodecadiz`}>Diario de Cádiz</a>
-        </li>
+        </li> -->
         <li>
             <a href={`${base}/projects`}>{$isEn ? "Other projects" : "Otros proyectos"}</a>
         </li>
