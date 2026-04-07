@@ -1,4 +1,19 @@
 export const projectsList = [
+    {
+    lang: "es",
+    id: "artemis",
+    en: {
+      title: "The journey of Artemis 2 to the far side of the Moon",
+      section: "Science",
+      href: "https://english.elpais.com/science-tech/2026-04-01/the-journey-of-artemis-2-to-the-far-side-of-the-moon-the-challenge-of-exploring-what-no-one-has-ever-seen.html",
+    },
+    es: {
+      title:
+        "El viaje de Artemis 2 hacia la cara oculta de la Luna",
+      section: "Ciencia",
+      href: "https://elpais.com/ciencia/2026-04-01/asi-sera-el-recorrido-de-artemis-2-hacia-la-cara-oculta-de-la-luna-el-reto-de-explorar-lo-que-nadie-ha-visto.html",
+    },
+  },
   {
     lang: "es",
     id: "eclipse1y",
